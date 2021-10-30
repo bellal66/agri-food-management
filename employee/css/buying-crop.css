@@ -1,0 +1,44 @@
+.farmer-name {
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: left;
+}
+input[type=date]{
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.address{
+    width: 89%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: left;
+}
+.crop-selling-table tbody tr th, input{
+	text-align: center;
+}
+.crop-selling-table tfoot{
+	border: 0;
+}
+.crop-selling-table tbody tr, tfoot tr{
+	height: 50px;
+}
+.crop-selling-table tfoot tr{
+	height: 50px;
+	text-align: center; 
+	color: green; 
+	font-size: 20px;
+}
+#farmer-name-search option{
+	color: green;
+}

@@ -1,0 +1,51 @@
+.headerone{
+	width: 100%;
+}
+.headeroneTitle {
+	width: 100%;
+	clear: both;
+}
+.WalletOption{
+	clear: both;
+}
+.StatementOption{
+	clear: both;
+}
+.ActionOption{
+	clear: both;
+}
+.option{
+	height: 35px;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.option2{
+	width: 80px;
+	height: 45px;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.active{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	background: #eee;
+}
+.option:hover{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	background: #eee;
+}
+.WalletOption{
+	left: 0px;
+}
+.optionDetail{
+	border: 2px solid #eee;
+}

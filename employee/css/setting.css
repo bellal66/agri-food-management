@@ -1,0 +1,229 @@
+.containerr {
+           padding: 16px;
+           background-color: white;
+        }
+
+        input[type=text], input[type=password], input[type=email], #dMethodt, #dTo, #wType, #wMethod {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 5px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+         }
+
+          input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, #dMethodt:focus, #dTo:focus,
+           #wType:focus, #wMethod:focus{
+             background-color: #ddd;
+             outline: none;
+         }
+         hr {
+           border: 1px solid #f1f1f1;
+           margin-bottom: 5px;
+          }
+          .registerbtn {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 15px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 20%;
+                opacity: 0.9;
+           }
+
+           .registerbtn:hover {
+                opacity: 1;
+            }
+           .containerr b{
+              text-align: center;
+            }
+            input#userSignInForm {
+    padding: 5px;
+    float: right;
+    margin-top: -46px;
+}
+input#userSignInForm {
+    border: 2px solid #089c2d;
+    background: #ddd;
+}#historyy{
+  list-style: circle;
+}
+
+@media screen and (max-width: 760px) {
+  .registerbtn{
+    width: 100%;
+  }
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+  }
+  #show-more{
+    margin-left: 20%;
+  }
+  #sponsor-heading{
+    width: 25%;
+  }
+  #sponsor-detail{
+    width: 75%;
+  }
+  #deposit-heading{
+    width: 38%;
+  }
+  #deposit-detail{
+    width: 62%;
+  }
+  #withdraw-heading{
+    width: 38%;
+  }
+  #withdraw-detail{
+    width: 62%;
+  }
+  #btransfer-heading{
+    width: 38%;
+  }
+  #btransfer-detail{
+    width: 62%;
+  }
+
+}
+
+
+#sponsor-heading{
+  float: left;
+  }
+  #sponsor-detail{
+    float: left;
+  }
+.sponsor{
+  border: 1px solid black; 
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 96%;
+  height: 110px;
+  color: white;
+}
+.sponsor ul{
+  margin-left: 10px;
+  list-style: none;
+}
+#deposit{
+  border: 1px solid black; 
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 96%;
+  height: 290px;
+  color: white;
+}
+#deposit ul{
+  margin-left: 10px;
+  list-style: none;
+}
+#deposit-heading{
+  float: left;
+  }
+#deposit-detail{
+    float: left;
+  }
+#withdraw{
+  border: 1px solid black; 
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 96%;
+  height: 250px;
+  color: white;
+}
+#withdraw ul{
+  margin-left: 10px;
+  list-style: none;
+}
+#withdraw-heading{
+  float: left;
+  }
+#withdraw-detail{
+    float: left;
+  }
+#btransfer{
+  border: 1px solid black; 
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 96%;
+  height: 100px;
+  color: white;
+}
+#btransfer ul{
+  margin-left: 10px;
+  list-style: none;
+}
+#btransfer-heading{
+  float: left;
+  }
+#btransfer-detail{
+    float: left;
+  }
+
+#bethistory{
+  border: 1px solid black; 
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 96%;
+  height: auto;
+  color: white;
+}
+#bethistory:hover {
+}
+.activeBetTitle{
+  width: 100%;
+  height: 40px;
+  background: #14805e;
+}
+.activeBetDetail{
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid grey;
+  color: #bbbbbb;
+}
+.activeBetTitleNo{
+  color: #ffffff;
+  padding-top: 2%;
+}
+.cash-out-option{
+  margin-left: 1%;
+  width: 96%;
+  height: 30px;
+  background: #bbbbbb;
+  border-radius: 3px;
+  color: black;
+  padding-left: 35%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cash-out-option:hover {
+  background: orange;
+  color: black;
+}
+
+
+#show-more{
+  margin-left: 40%;
+  color: white;
+}
+#show-more a{
+  color: white;
+}
+hr.bet-detail{
+  border: .5px dashed #FEEE19; 
+}
+hr.cash-out{
+  border: .5px solid #FEEE19; 
+  width: 60%;
+  margin-left: 1%;
+}
+
+
+.margin{
+  margin-left: 2%;
+}
+.divider{
+  width: 96%;
+  border-bottom: 1px solid grey;
+}
